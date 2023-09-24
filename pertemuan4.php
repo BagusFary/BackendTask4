@@ -1,47 +1,4 @@
 <?php
-$nama = "Bagus";
-
-$pesan = "selamat datang $nama" ;
-
-echo $pesan;
-
-echo "<hr>";
-
-$namaDepan = "Bagus";
-$namaBelakang = "Ananta";
-
-$namaLengkap = $namaDepan . " " . $namaBelakang;
-
-echo $namaLengkap;
-
-echo "<hr>";
-
-$i = 5;
-
-echo "Hasil akhir: " . $i + 3;
-
-echo "<hr>";
-
-$test = "Bagus Fary Ananta";
-
-echo "panjang string/karakter: " . strlen($test);
-
-echo "<hr>";
-
-echo "panjang kata " . str_word_count($test);
-
-echo "<hr>";
-
-echo "<p> " . substr($test, 0, 10);
-echo "<p> " . substr($test, 5, 12);
-
-echo "<hr>";
-
-echo "<p> " . strtoupper($test);
-echo "<p> " . strtolower($test);
-
-echo "<hr>";
-
 // Tugas mencoba PHP String Function
 
 echo "10 Function PHP tugas";
